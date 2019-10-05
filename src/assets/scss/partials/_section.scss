@@ -1,0 +1,27 @@
+.section {
+    padding: 100px 0px;
+
+    @media (max-width: 768px) {
+        padding: 60px 0px;
+    }
+
+    &__title {
+        font-size: rem(36);
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+
+        @media (max-width: 576px) {
+            font-size: rem(28);
+        }
+    }
+
+    &__body {
+        margin-top: 70px;
+
+        @media (max-width: 768px) {
+            margin-top: 40px;
+        }
+    }
+}
+

@@ -1,0 +1,23 @@
+<div class="menu-overlay">
+    <div class="menu">
+        <div class="menu__header">
+            {{> logo }}
+
+            <i class="menu__close icon icon-clearclose"></i>
+        </div>
+
+        <div class="menu__body">
+            {{> menuNav class="menu__nav" }}
+        </div>
+
+        <div class="menu__footer">
+            <div class="menu__inner">
+                {{> phone class="menu__feedback "}}
+
+                {{#> button type="info" class="menu__call js-feedback" }}
+                    Обратная свзяь
+                {{/button}}
+            </div>
+        </div>
+    </div>
+</div>

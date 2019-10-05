@@ -1,0 +1,20 @@
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__number {
+        font-size: rem(24);
+        font-weight: 800;
+        color: $black;
+    }
+
+    &__text {
+        font-size: rem(12);
+        color: $neutral-secondary;
+    }
+
+    &_light &__number, &_light &__text {
+        color: #fff;
+    }
+}

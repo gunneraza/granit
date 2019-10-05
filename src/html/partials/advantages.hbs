@@ -1,0 +1,18 @@
+{{!-- @section Advantages --}}
+
+<section class="section section-advantages" id="section-advantages">
+    <div class="container">
+        <h2 class="section__title">Наши преимущества</h2>
+        <section class="section__body">
+            <div class="advantages">
+                {{#each advantages }}
+                {{> advantage advantage=this class="advantages__item" }}
+                {{/each}}
+
+                {{#each advantages }}
+                {{> advantage advantage=this class="advantages__item" }}
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</section>

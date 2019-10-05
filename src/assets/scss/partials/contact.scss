@@ -1,0 +1,35 @@
+.section-contact {
+  padding-top: 100px;
+  background-color: #fff;
+  position: relative;
+
+  @media (max-width: 768px) {
+    padding-top: 0px;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  
+
+  &__map {
+    height: 400px;
+    width: 47%;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__details {
+    padding-left: 40px;
+
+    @media (max-width: 768px) {
+      padding: 20px;
+      padding-bottom: 120px;
+    }
+  }
+}
+
+

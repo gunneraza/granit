@@ -1,0 +1,12 @@
+<section class="section section-services" id="section-services">
+    <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <section class="section__body">
+            <div class="services">
+                {{#each cars}}
+                    {{> serviceCard car=this class="services__item"}}
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</section>

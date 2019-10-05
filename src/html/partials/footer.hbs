@@ -1,0 +1,29 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                {{> logo type="light" }}
+
+                <ul class="footer__nav">
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Товары</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Услуги</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__feedback">
+                {{> phone type="light" }}
+
+                {{#> button type="info-light" class="js-feedback" }}
+                    Обратный звонок
+                {{/button}}
+            </div>
+        </div>
+    </div>
+</footer>

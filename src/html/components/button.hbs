@@ -1,0 +1,11 @@
+{{#if href}}
+    <a href="{{ href }}" class="button button_{{ type }} {{ class }}">
+        {{ @partial-block }}
+    </a>
+{{else}}
+    <button class="button button_{{ type }} {{ class }}">
+        {{ @partial-block }}
+    </button>
+{{/if}}
+
+

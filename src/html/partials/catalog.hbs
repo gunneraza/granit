@@ -1,0 +1,12 @@
+<section class="section section-catalog" id="section-catalog">
+    <div class="container">
+        <h2 class="section__title">Популярные товары</h2>
+        <section class="section__body">
+            <div class="productCards">
+                {{#each products}}
+                    {{> productCard product=this class="productCards__item"}}
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</section>

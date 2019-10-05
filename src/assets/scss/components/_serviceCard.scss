@@ -1,0 +1,31 @@
+.service-card {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 30px;
+   
+    user-select: none;
+
+    &:hover {
+        cursor: pointer;
+        
+        svg {
+            fill: $yellow;
+        }
+    }
+
+    &__icon {
+
+        svg {
+            width: 100px;
+            height: 100px;
+
+            transition: fill 200ms ease;
+        }
+    }
+
+    &__title {
+        font-size: rem(22);
+        margin-top: 40px;
+    }
+}

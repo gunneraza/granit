@@ -1,0 +1,36 @@
+.menu-nav {
+  &__item {
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: $neutral-regular;
+
+    font-size: rem(18);
+    font-weight: 400;
+
+    padding: 14px 26px;
+
+    transition: background-color 200ms ease;
+
+    @media (max-width: 768px) {
+     
+    }
+
+    &:hover {
+      background-color: $border-light;
+      color: $black;
+    }
+  }
+
+  &__link:hover &__icon {
+    color: $black;
+  }
+
+  &__icon {
+    font-size: rem(24);
+    width: 40px;
+    color: $neutral-regular;
+  }
+}

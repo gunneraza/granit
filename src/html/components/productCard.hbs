@@ -1,0 +1,19 @@
+<div class="product-card {{ truefalse product.isDiscount true="product-card_discount" }} {{ class }}">
+    <div class="product-card__img" style="background-image: url('{{ product.img }}');"></div>
+    <div class="product-card__title">{{ product.title }} {{ product.size }}</div>
+
+    <div class="product-card__price">
+        {{#if product.isDiscount }}
+            <span class="product-card__price-old">{{ product.oldPrice }}</span>
+        {{/if}}
+        <span class="product-card__price {{ truefalse product.isDiscount true="product-card__price-current" }}">{{ product.price }}</span>
+    </div>
+
+    {{#> button href="#" type="warning" class="product-card__button"}}
+    Купить
+    {{/button}}
+
+    {{#if product.isDiscount }}
+        <div class="product-card__discount">Акция</div>
+    {{/if}}
+</div>

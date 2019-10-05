@@ -1,0 +1,23 @@
+<div class="section-home" id="section-home">
+    <div class="section-home__overlay">
+        <div class="container">
+            <section class="home">
+                <h1 class="home__title">Быстрая доставка</h1>
+                <p class="home__description">
+                    Весь товар уже находится на нашем складе. Нам остается только погрузить его и в путь!
+                </p>
+                <footer class="home__links">
+                    {{#> button href="#section-contacts" type="warning" class="home__button"}}
+                        Подробнее о доставке
+                    {{/button}}
+
+                    {{#> button href="#section-catalog" type="info-light" class="home__button"}}
+                        Перейти в каталог
+                    {{/button}}
+                </footer>
+
+                {{ $post_title }}
+            </section>
+        </div>
+    </div>
+</div>

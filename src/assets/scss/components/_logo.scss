@@ -1,0 +1,58 @@
+.logo {
+    line-height: 1;
+
+    &__link {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__icon {
+        transform: scaleX(-1);
+
+        svg {
+            width: 54px;
+            height: 54px;
+            fill: $black;
+
+            @media (max-width: 576px) {
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+
+    &__icon + &__info {
+        margin-left: 12px;
+    }
+
+    &__title {
+        color: $black;
+        font-size: rem(24);
+        font-weight: 800;
+        text-transform: uppercase;
+        
+        @media (max-width: 576px) {
+            font-size: rem(22);
+        }
+    }
+    
+    &__slogan {
+        font-size: rem(12);
+        color: $neutral-secondary;
+        padding-top: 4px;
+    }
+
+
+    &_light {
+        svg {
+            fill: #fff;
+        }
+    }
+
+    &_light &__title, &_light &__slogan {
+        color: #fff;
+    }
+    
+}

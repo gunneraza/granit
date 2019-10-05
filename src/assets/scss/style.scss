@@ -1,0 +1,69 @@
+@charset 'UTF-8';
+
+/* Utils
+   ============================= */
+   @import 'utils/libs';
+   @import 'utils/variables';
+   @import 'utils/functions';
+   @import 'utils/mixins';
+
+
+
+/* Base
+   ============================= */
+   @import 'base/fonts';
+   @import 'base/reset';
+   @import 'base/typography';
+
+
+
+/* Components
+   ============================= */
+   @import 'components/logo';
+   @import 'components/phone';
+   @import 'components/button';
+   @import 'components/nav';
+   @import 'components/product';
+   @import 'components/advantage';
+   @import 'components/productCard';
+   @import 'components/serviceCard';
+   @import 'components/contactCard';
+   @import 'components/modal';
+   @import 'components/menu';
+   @import 'components/menuNav';
+   @import 'components/yandexmap';
+
+
+
+/* Partials
+   ============================= */
+   @import 'partials/section';
+   @import 'partials/header';
+   @import 'partials/home';
+   @import 'partials/stock';
+   @import 'partials/advantages';
+   @import 'partials/catalog';
+   @import 'partials/services';
+   @import 'partials/contact';
+   @import 'partials/footer';
+
+
+
+/* GLOBAL STYLES
+   ============================= */
+html, body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    font-weight: 400;
+    color: $black;
+    background-color: #fff;
+    
+    @media (max-width: 1200px) {
+        font-size: 9px;
+    }
+}
+
+body {
+    overflow-y: scroll;
+}

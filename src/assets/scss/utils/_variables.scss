@@ -1,0 +1,65 @@
+/* Font
+   ============================= */
+$font-size-small           : 16px;
+$font-size-medium          : 18px;
+$font-size-large           : 20px;
+
+$font-family-base          : 'Roboto', Consolas, Helvetica, Arial, sans-serif;
+$font-size-base            : 10px;
+$font-color-base           : #000;
+
+$font-weight-base          : 400;
+$line-height-base          : 1.4;
+
+
+
+
+/* Container
+   ============================= */
+$container-xs            : 300px;
+$container-sm            : 720px;
+$container-md            : 940px;
+$container-lg            : 1140px;
+
+
+
+
+/* Breakpoints
+   ============================= */
+$screen-xs            : 576px;
+$screen-sm            : 768px;
+$screen-md            : 992px;
+$screen-lg            : 1200px;
+$screen-xl            : 1500px;
+
+
+
+/* Colors
+   ============================= */
+$primary-color           : #1a73e8;
+$success-color           : #26de81;
+$danger-color            : #fc5c65;
+$warning-color           : #fed330;
+
+$yellow                  : #ffcc00;
+$yellow-light            : #ffd200;
+$yellow-hover            : #ffdc41;
+$red                     : #ff0000;
+$black                   : #292929;
+$black-light             : #112d58;
+$blue                    : #4A4FF2;
+$blue-light              : #1a73e8;
+
+$neutral-primary         : #303133;
+$neutral-regular         : #626262;
+$neutral-secondary       : #969696;
+$neutral-placeholder     : #C0C4CC;
+
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+$border-radius-small     : 2px;
+$border-radius-medium    : 4px;
+$border-radius-large     : 6px;

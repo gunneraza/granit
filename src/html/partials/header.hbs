@@ -1,0 +1,19 @@
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            {{> logo }}
+
+            <div class="header__feedback">
+                {{> phone class="header__phone" }}
+                {{#> button type="info" class="header__button js-feedback" }}
+                    Обратный звонок
+                {{/button}}
+            </div>
+
+            <div class="header__burger">
+                <i class="icon icon-menu"></i>
+            </div>
+        </div>
+        {{> nav }}
+    </div>
+</header>

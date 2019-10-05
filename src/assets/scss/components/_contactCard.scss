@@ -1,0 +1,38 @@
+.contact-card {
+    &__title {
+        font-size: rem(42);
+        margin-bottom: 30px;
+
+        @media (max-width: 768px) {
+            font-size: rem(34);
+        }
+    }
+}
+
+.detail {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+    a {
+        color: $black;
+    }
+
+    &__info {
+        padding-left: 16px;
+    }
+
+    &__icon {
+        font-size: rem(20);
+        color: $neutral-regular;
+    }
+
+    &__item {
+        color: $black;
+        font-weight: 500;
+        font-size: rem(16);
+        &:not(:first-child) {
+            margin-top: 10px;
+        }
+    }
+}

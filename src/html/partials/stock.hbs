@@ -1,0 +1,14 @@
+{{!-- @section Advantages --}}
+
+<section class="section section-stock" id="section-stock">
+    <div class="container">
+        <h2 class="section__title">Всегда в наличии</h2>
+        <section class="section__body">
+            <div class="products">
+                {{#each inStock}}
+                    {{> product product=this type="stock" class="products__item"}}
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+.productCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 576px) {
+        justify-content: center;
+    }
+
+    &__item {
+        width: 250px;
+
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+    }
+}
+

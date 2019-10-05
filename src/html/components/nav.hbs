@@ -1,0 +1,7 @@
+<nav role="navigation">
+    <ul class="nav">
+        {{#each nav.desktop }}
+        <li class="nav__item"><a href="{{this.href}}" class="nav__link">{{ this.label }}</a></li>
+        {{/each }}
+    </ul>
+</nav>

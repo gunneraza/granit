@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?xr0cns');
-  src:  url('fonts/icomoon.eot?xr0cns#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?xr0cns') format('truetype'),
-    url('fonts/icomoon.woff?xr0cns') format('woff'),
-    url('fonts/icomoon.svg?xr0cns#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?e6iakm');
+  src:  url('fonts/icomoon.eot?e6iakm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?e6iakm') format('truetype'),
+    url('fonts/icomoon.woff?e6iakm') format('woff'),
+    url('fonts/icomoon.svg?e6iakm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -43,4 +43,25 @@ i, .icomoon-liga {
 }
 .icon-location_onplaceroom:before {
   content: "\e903";
+}
+.icon-clearclose:before {
+  content: "\e900";
+}
+.icon-local_grocery_storeshopping_cart:before {
+  content: "\e904";
+}
+.icon-local_shipping:before {
+  content: "\e905";
+}
+.icon-menu:before {
+  content: "\e909";
+}
+.icon-thumb_up_alt:before {
+  content: "\e906";
+}
+.icon-grid_view:before {
+  content: "\e907";
+}
+.icon-home_filled:before {
+  content: "\e908";
 }

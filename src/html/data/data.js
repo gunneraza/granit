@@ -79,7 +79,7 @@ module.exports = {
       {
         label: "Преимущества",
         href: "#section-advantages",
-        icon: "thumb_up"
+        icon: "thumb_up_alt"
       },
       {
         label: "Контакты",

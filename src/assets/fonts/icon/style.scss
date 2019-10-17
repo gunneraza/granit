@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xr0cns');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xr0cns#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xr0cns') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xr0cns') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xr0cns##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e6iakm');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e6iakm#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e6iakm') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e6iakm') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e6iakm##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -50,6 +50,41 @@ i, .icomoon-liga {
 .icon-location_onplaceroom {
   &:before {
     content: $icon-location_onplaceroom; 
+  }
+}
+.icon-clearclose {
+  &:before {
+    content: $icon-clearclose; 
+  }
+}
+.icon-local_grocery_storeshopping_cart {
+  &:before {
+    content: $icon-local_grocery_storeshopping_cart; 
+  }
+}
+.icon-local_shipping {
+  &:before {
+    content: $icon-local_shipping; 
+  }
+}
+.icon-menu {
+  &:before {
+    content: $icon-menu; 
+  }
+}
+.icon-thumb_up_alt {
+  &:before {
+    content: $icon-thumb_up_alt; 
+  }
+}
+.icon-grid_view {
+  &:before {
+    content: $icon-grid_view; 
+  }
+}
+.icon-home_filled {
+  &:before {
+    content: $icon-home_filled; 
   }
 }
 
